@@ -2,40 +2,57 @@ import subprocess
 import json
 
 full_cwa_text = """
-(a) Restoration and maintenance of chemical, physical and biological integrity of Nation's waters; national goals for achievement of objective
-The objective of this chapter is to restore and maintain the chemical, physical, and biological integrity of the Nation's waters. In order to achieve this objective it is hereby declared that, consistent with the provisions of this chapter—
+(a) Demonstration projects covering storm waters, advanced waste treatment and water purification methods, and joint treatment systems for municipal and industrial wastes
+The Administrator is authorized to conduct in the Environmental Protection Agency, and to make grants to any State, municipality, or intermunicipal or interstate agency for the purpose of assisting in the development of—
 
-(1) it is the national goal that the discharge of pollutants into the navigable waters be eliminated by 1985;
+(1) any project which will demonstrate a new or improved method of preventing, reducing, and eliminating the discharge into any waters of pollutants from sewers which carry storm water or both storm water and pollutants; or
 
-(2) it is the national goal that wherever attainable, an interim goal of water quality which provides for the protection and propagation of fish, shellfish, and wildlife and provides for recreation in and on the water be achieved by July 1, 1983;
+(2) any project which will demonstrate advanced waste treatment and water purification methods (including the temporary use of new or improved chemical additives which provide substantial immediate improvements to existing treatment processes), or new or improved methods of joint treatment systems for municipal and industrial wastes;
 
-(3) it is the national policy that the discharge of toxic pollutants in toxic amounts be prohibited;
 
-(4) it is the national policy that Federal financial assistance be provided to construct publicly owned waste treatment works;
+and to include in such grants such amounts as are necessary for the purpose of reports, plans, and specifications in connection therewith.
 
-(5) it is the national policy that areawide waste treatment management planning processes be developed and implemented to assure adequate control of sources of pollutants in each State;
+(b) Demonstration projects for advanced treatment and environmental enhancement techniques to control pollution in river basins
+The Administrator is authorized to make grants to any State or States or interstate agency to demonstrate, in river basins or portions thereof, advanced treatment and environmental enhancement techniques to control pollution from all sources, within such basins or portions thereof, including nonpoint sources, together with in stream 1 water quality improvement techniques.
 
-(6) it is the national policy that a major research and demonstration effort be made to develop technology necessary to eliminate the discharge of pollutants into the navigable waters, waters of the contiguous zone, and the oceans; and
+(c) Research and demonstration projects for prevention of water pollution by industry
+In order to carry out the purposes of section 1311 of this title, the Administrator is authorized to (1) conduct in the Environmental Protection Agency, (2) make grants to persons, and (3) enter into contracts with persons, for research and demonstration projects for prevention of pollution of any waters by industry including, but not limited to, the prevention, reduction, and elimination of the discharge of pollutants. No grant shall be made for any project under this subsection unless the Administrator determines that such project will develop or demonstrate a new or improved method of treating industrial wastes or otherwise prevent pollution by industry, which method shall have industrywide application.
 
-(7) it is the national policy that programs for the control of nonpoint sources of pollution be developed and implemented in an expeditious manner so as to enable the goals of this chapter to be met through the control of both point and nonpoint sources of pollution.
+(d) Accelerated and priority development of waste management and waste treatment methods and identification and measurement methods
+In carrying out the provisions of this section, the Administrator shall conduct, on a priority basis, an accelerated effort to develop, refine, and achieve practical application of:
 
-(b) Congressional recognition, preservation, and protection of primary responsibilities and rights of States
-It is the policy of the Congress to recognize, preserve, and protect the primary responsibilities and rights of States to prevent, reduce, and eliminate pollution, to plan the development and use (including restoration, preservation, and enhancement) of land and water resources, and to consult with the Administrator in the exercise of his authority under this chapter. It is the policy of Congress that the States manage the construction grant program under this chapter and implement the permit programs under sections 1342 and 1344 of this title. It is further the policy of the Congress to support and aid research relating to the prevention, reduction, and elimination of pollution and to provide Federal technical services and financial aid to State and interstate agencies and municipalities in connection with the prevention, reduction, and elimination of pollution.
+(1) waste management methods applicable to point and nonpoint sources of pollutants to eliminate the discharge of pollutants, including, but not limited to, elimination of runoff of pollutants and the effects of pollutants from inplace or accumulated sources;
 
-(c) Congressional policy toward Presidential activities with foreign countries
-It is further the policy of Congress that the President, acting through the Secretary of State and such national and international organizations as he determines appropriate, shall take such action as may be necessary to insure that to the fullest extent possible all foreign countries shall take meaningful action for the prevention, reduction, and elimination of pollution in their waters and in international waters and for the achievement of goals regarding the elimination of discharge of pollutants and the improvement of water quality to at least the same extent as the United States does under its laws.
+(2) advanced waste treatment methods applicable to point and nonpoint sources, including inplace or accumulated sources of pollutants, and methods for reclaiming and recycling water and confining pollutants so they will not migrate to cause water or other environmental pollution; and
 
-(d) Administrator of Environmental Protection Agency to administer chapter
-Except as otherwise expressly provided in this chapter, the Administrator of the Environmental Protection Agency (hereinafter in this chapter called "Administrator") shall administer this chapter.
+(3) improved methods and procedures to identify and measure the effects of pollutants on the chemical, physical, and biological integrity of water, including those pollutants created by new technological developments.
 
-(e) Public participation in development, revision, and enforcement of any regulation, etc.
-Public participation in the development, revision, and enforcement of any regulation, standard, effluent limitation, plan, or program established by the Administrator or any State under this chapter shall be provided for, encouraged, and assisted by the Administrator and the States. The Administrator, in cooperation with the States, shall develop and publish regulations specifying minimum guidelines for public participation in such processes.
+(e) Research and demonstration projects covering agricultural pollution and pollution from sewage in rural areas; dissemination of information
+(1) The Administrator is authorized to (A) make, in consultation with the Secretary of Agriculture, grants to persons for research and demonstration projects with respect to new and improved methods of preventing, reducing, and eliminating pollution from agriculture, and (B) disseminate, in cooperation with the Secretary of Agriculture, such information obtained under this subsection, section 1254(p) of this title, and section 1314 of this title as will encourage and enable the adoption of such methods in the agricultural industry.
 
-(f) Procedures utilized for implementing chapter
-It is the national policy that to the maximum extent possible the procedures utilized for implementing this chapter shall encourage the drastic minimization of paperwork and interagency decision procedures, and the best use of available manpower and funds, so as to prevent needless duplication and unnecessary delays at all levels of government.
+(2) The Administrator is authorized, (A) in consultation with other interested Federal agencies, to make grants for demonstration projects with respect to new and improved methods of preventing, reducing, storing, collecting, treating, or otherwise eliminating pollution from sewage in rural and other areas where collection of sewage in conventional, community-wide sewage collection systems is impractical, uneconomical, or otherwise infeasible, or where soil conditions or other factors preclude the use of septic tank and drainage field systems, and (B) in cooperation with other interested Federal and State agencies, to disseminate such information obtained under this subsection as will encourage and enable the adoption of new and improved methods developed pursuant to this subsection.
 
-(g) Authority of States over water
-It is the policy of Congress that the authority of each State to allocate quantities of water within its jurisdiction shall not be superseded, abrogated or otherwise impaired by this chapter. It is the further policy of Congress that nothing in this chapter shall be construed to supersede or abrogate rights to quantities of water which have been established by any State. Federal agencies shall co-operate with State and local agencies to develop comprehensive solutions to prevent, reduce and eliminate pollution in concert with programs for managing water resources.
+(f) Limitations
+Federal grants under subsection (a) of this section shall be subject to the following limitations:
+
+(1) No grant shall be made for any project unless such project shall have been approved by the appropriate State water pollution control agency or agencies and by the Administrator;
+
+(2) No grant shall be made for any project in an amount exceeding 75 per centum of cost thereof as determined by the Administrator; and
+
+(3) No grant shall be made for any project unless the Administrator determines that such project will serve as a useful demonstration for the purpose set forth in clause (1) or (2) of subsection (a).
+
+(g) Maximum grants
+Federal grants under subsections (c) and (d) of this section shall not exceed 75 per centum of the cost of the project.
+
+(h) Authorization of appropriations
+For the purpose of this section there is authorized to be appropriated $75,000,000 per fiscal year for the fiscal year ending June 30, 1973, the fiscal year ending June 30, 1974, and the fiscal year ending June 30, 1975, and from such appropriations at least 10 per centum of the funds actually appropriated in each fiscal year shall be available only for the purposes of subsection (e).
+
+(i) Assistance for research and demonstration projects
+The Administrator is authorized to make grants to a municipality to assist in the costs of operating and maintaining a project which received a grant under this section, section 1254 of this title, or section 1263 of this title prior to December 27, 1977, so as to reduce the operation and maintenance costs borne by the recipients of services from such project to costs comparable to those for projects assisted under subchapter II of this chapter.
+
+(j) Assistance for recycle, reuse, and land treatment projects
+The Administrator is authorized to make a grant to any grantee who received an increased grant pursuant to section 1282(a)(2) of this title. Such grant may pay up to 100 per centum of the costs of technical evaluation of the operation of the treatment works, costs of training of persons (other than employees of the grantee), and costs of disseminating technical information on the operation of the treatment works.
+
 """
 
 escaped_json_string = json.dumps(full_cwa_text, ensure_ascii=False)
